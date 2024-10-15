@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+
+header {
+  background-color: #FF69B4;
+  height: 19.1vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+header div {
+  display: flex;
+  align-items: center;
+  width: 40vw;
+  font-size: 22px;
+  color: white;
+  font-weight: 400;
+}
+header ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 40vw;
+}
+header ul li {
+  list-style: none;
+  font-size: 22px;
+  color: white;
+  font-weight: 400;
+}
+
+.primeiroContainer {
+  height: 61.1vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #FFD9EC;
+}
+.primeiroContainer p {
+  height: 42.9vh;
+  width: 44vw;
+  font-size: 23px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+}
+
+.segundoContainer {
+  height: 42.4vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #FF69B4;
+}
+.segundoContainer p {
+  height: 28.2vh;
+  width: 47.4vw;
+  display: flex;
+  align-items: center;
+  font-size: 23px;
+  font-weight: 400;
+  color: white;
+}
+
+.terceiroContainer {
+  height: 69vh;
+  background-color: #FFD9EC;
+}
+.terceiroContainer figure {
+  height: 69vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+footer {
+  background-color: #FF69B4;
+  height: 23.1vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+footer .logos {
+  width: 15vw;
+  display: flex;
+  justify-content: space-between;
+}
+footer ul {
+  text-align: center;
+}
+footer ul li {
+  color: white;
+  list-style: none;
+  font-size: 20px;
+}
+footer .simbolooutrosa {
+  width: 13vw;
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=style.css.map */
