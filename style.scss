@@ -22,9 +22,11 @@ header{
         display: flex;
         align-items: center;
         width: 40vw;
-        font-size: 22px;
+        h1{
+            font-size: 25px;
         color: white;
         font-weight: 400;
+        }
     }
     ul{
         // border: solid 2px blue;
