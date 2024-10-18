@@ -9,6 +9,11 @@
     font-family: "Noto Sans", sans-serif;
 }
 
+
+// ----------------------HEADER---------------------------
+
+
+
 header{
     // border: solid 2px green;
     background-color:#FF69B4;
@@ -43,7 +48,15 @@ header{
     }
 }
 
-.primeiroContainer{
+
+// ----------------------------FIM DA HEADER--------------------------------
+
+
+
+// -------------------------------MAIN---------------------------------
+
+
+.BoxSobre{
         // border: solid 2px red;
         height: 61.1vh;
         display: flex;
@@ -61,10 +74,14 @@ header{
             align-items: center;
                 
             }  
+
+            img{
+                width: 25vw;
+            }
         
     }
 
-.segundoContainer{
+.BoxConscientizaçao{
     // border: solid 2px red;
     height: 42.4vh;
     display: flex;
@@ -81,9 +98,12 @@ header{
         font-weight: 400;
         color: white;
     }
+    img{
+        width: 27vw;
+    }
 }
 
-.terceiroContainer{
+.BoxDicas{
     // border: solid 2px red;
     height: 69vh;
     background-color: #FFD9EC;
@@ -94,9 +114,27 @@ header{
       display: flex;
       align-items: center;
       justify-content: space-evenly;
+      img{
+        width: 17vw;
+      }
     }
     
 }
+
+
+
+
+// ----------------------------FIM DA MAIN---------------------------
+
+
+
+
+
+
+
+
+
+// ---------------------------FOOTER----------------------------
 
 footer{
     // border: solid 2px red;
@@ -105,7 +143,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    .logos{
+    .BoxLogos{
         // border: solid 2px green;
         width: 15vw;
     
@@ -133,3 +171,7 @@ footer{
         
     }
 }
+
+
+
+// ---------------------------FIM DO FOOTER----------------------------

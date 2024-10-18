@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   margin: 0;
@@ -36,14 +37,14 @@ header ul li {
   font-weight: 400;
 }
 
-.primeiroContainer {
+.BoxSobre {
   height: 61.1vh;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   background-color: #FFD9EC;
 }
-.primeiroContainer p {
+.BoxSobre p {
   height: 42.9vh;
   width: 44vw;
   font-size: 23px;
@@ -51,15 +52,18 @@ header ul li {
   display: flex;
   align-items: center;
 }
+.BoxSobre img {
+  width: 25vw;
+}
 
-.segundoContainer {
+.BoxConscientizaçao {
   height: 42.4vh;
   display: flex;
   align-items: center;
   justify-content: space-around;
   background-color: #FF69B4;
 }
-.segundoContainer p {
+.BoxConscientizaçao p {
   height: 28.2vh;
   width: 47.4vw;
   display: flex;
@@ -68,16 +72,22 @@ header ul li {
   font-weight: 400;
   color: white;
 }
+.BoxConscientizaçao img {
+  width: 27vw;
+}
 
-.terceiroContainer {
+.BoxDicas {
   height: 69vh;
   background-color: #FFD9EC;
 }
-.terceiroContainer figure {
+.BoxDicas figure {
   height: 69vh;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+}
+.BoxDicas figure img {
+  width: 17vw;
 }
 
 footer {
@@ -87,7 +97,7 @@ footer {
   align-items: center;
   justify-content: space-around;
 }
-footer .logos {
+footer .BoxLogos {
   width: 15vw;
   display: flex;
   justify-content: space-between;
